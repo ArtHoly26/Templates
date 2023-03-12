@@ -1,4 +1,4 @@
-#include "Std.h"
+ï»¿#include "Std.h"
 #include "Constance.h"
 #include "Search.h"
 #include "Evaluate.h"
@@ -20,10 +20,10 @@ int main()
 	FillRand(arr, size);
 	Print(arr, size);
 	Search(arr, size);
-	cout << "Ñóììà ýëåìåíòîâ ìàññèâà ðàâíà:" << Sum(arr, size) << endl;
-	cout << "Ñðåäíåå àðåôìåòè÷åñêîå ýëåìåíòîâ ìàññèâà ðàâíà:" << Avg(arr, size) << endl;
-	cout << "Ìèíèìàëüíûé ýëåìåíò:" << minValueIn(arr, size) << endl;
-	cout << "Ìàêñèìâëüíûé ýëåìåíò:" << maxValuenIn(arr, size);
+	cout << "Ð¡ÑƒÐ¼Ð¼Ð° ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð¼Ð°ÑÑÐ¸Ð²Ð° Ñ€Ð°Ð²Ð½Ð°:" << Sum(arr, size) << endl;
+	cout << "Ð¡Ñ€ÐµÐ´Ð½ÐµÐµ Ð°Ñ€ÐµÑ„Ð¼ÐµÑ‚Ð¸Ñ‡ÐµÑÐºÐ¾Ðµ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð¼Ð°ÑÑÐ¸Ð²Ð° Ñ€Ð°Ð²Ð½Ð°:" << Avg(arr, size) << endl;
+	cout << "ÐœÐ¸Ð½Ð¸Ð¼Ð°Ð»ÑŒÐ½Ñ‹Ð¹ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚:" << minValueIn(arr, size) << endl;
+	cout << "ÐœÐ°ÐºÑÐ¸Ð¼Ð²Ð»ÑŒÐ½Ñ‹Ð¹ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚:" << maxValuenIn(arr, size);
 	Sort(arr, size);
 	Print(arr, size);
 	shiftLeft(arr, size);
@@ -37,10 +37,10 @@ int main()
 	FillRand(crr, rows, cols);
 	Print(crr, rows, cols);
 	Search(crr, rows, cols);
-	cout << "Ñóììà ýëåìåíòîâ äâóìåðíîãî ìàññèâà ðàâíà:" << Sum(crr, rows, cols) << endl;
-	cout << "Ñðåäíåå àðåôìåòè÷åñêîå ýëåìåíòîâ äâóìåðíîãî ìàññèâà ðàâíî:" << Avg(crr, rows, cols) << endl;
-	cout << "Ìèíèìàëüíûé ýëåìåíò:" << minValueIn(crr, rows, cols) << endl;
-	cout << "Ìàêñèìàëüíûé ýëåìåíò:" << maxValuenIn(crr, rows, cols) << endl;
+	cout << "Ð¡ÑƒÐ¼Ð¼Ð° ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð´Ð²ÑƒÐ¼ÐµÑ€Ð½Ð¾Ð³Ð¾ Ð¼Ð°ÑÑÐ¸Ð²Ð° Ñ€Ð°Ð²Ð½Ð°:" << Sum(crr, rows, cols) << endl;
+	cout << "Ð¡Ñ€ÐµÐ´Ð½ÐµÐµ Ð°Ñ€ÐµÑ„Ð¼ÐµÑ‚Ð¸Ñ‡ÐµÑÐºÐ¾Ðµ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð´Ð²ÑƒÐ¼ÐµÑ€Ð½Ð¾Ð³Ð¾ Ð¼Ð°ÑÑÐ¸Ð²Ð° Ñ€Ð°Ð²Ð½Ð¾:" << Avg(crr, rows, cols) << endl;
+	cout << "ÐœÐ¸Ð½Ð¸Ð¼Ð°Ð»ÑŒÐ½Ñ‹Ð¹ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚:" << minValueIn(crr, rows, cols) << endl;
+	cout << "ÐœÐ°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ñ‹Ð¹ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚:" << maxValuenIn(crr, rows, cols) << endl;
 	Sort(crr, rows, cols);
 	Print(crr, rows, cols);
 	shiftLeft(crr, rows, cols);
